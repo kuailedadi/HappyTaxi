@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+//<登陆功能>
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
