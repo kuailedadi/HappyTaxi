@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C31146C71626B17E00BF2809 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31146C61626B17E00BF2809 /* UIKit.framework */; };
+		C31146C91626B17E00BF2809 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31146C81626B17E00BF2809 /* Foundation.framework */; };
+		C31146CB1626B17E00BF2809 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31146CA1626B17E00BF2809 /* CoreGraphics.framework */; };
+		C31146CD1626B17E00BF2809 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31146CC1626B17E00BF2809 /* CoreData.framework */; };
+		C31146D31626B17E00BF2809 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C31146D11626B17E00BF2809 /* InfoPlist.strings */; };
+		C31146D51626B17E00BF2809 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C31146D41626B17E00BF2809 /* main.m */; };
+		C31146D91626B17E00BF2809 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C31146D81626B17E00BF2809 /* AppDelegate.m */; };
+		C31146DB1626B17E00BF2809 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C31146DA1626B17E00BF2809 /* Default.png */; };
+		C31146DD1626B17E00BF2809 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C31146DC1626B17E00BF2809 /* Default@2x.png */; };
+		C31146DF1626B17E00BF2809 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C31146DE1626B17E00BF2809 /* Default-568h@2x.png */; };
+		C31146E21626B17E00BF2809 /* HappyTaxi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C31146E01626B17E00BF2809 /* HappyTaxi.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C31146C21626B17E00BF2809 /* HappyTaxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyTaxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31146C61626B17E00BF2809 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C31146C81626B17E00BF2809 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C31146CA1626B17E00BF2809 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C31146CC1626B17E00BF2809 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C31146D01626B17E00BF2809 /* HappyTaxi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HappyTaxi-Info.plist"; sourceTree = "<group>"; };
+		C31146D21626B17E00BF2809 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C31146D41626B17E00BF2809 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C31146D61626B17E00BF2809 /* HappyTaxi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HappyTaxi-Prefix.pch"; sourceTree = "<group>"; };
+		C31146D71626B17E00BF2809 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C31146D81626B17E00BF2809 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C31146DA1626B17E00BF2809 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C31146DC1626B17E00BF2809 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C31146DE1626B17E00BF2809 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C31146E11626B17E00BF2809 /* HappyTaxi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HappyTaxi.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C31146BF1626B17E00BF2809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31146C71626B17E00BF2809 /* UIKit.framework in Frameworks */,
+				C31146C91626B17E00BF2809 /* Foundation.framework in Frameworks */,
+				C31146CB1626B17E00BF2809 /* CoreGraphics.framework in Frameworks */,
+				C31146CD1626B17E00BF2809 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C31146B71626B17E00BF2809 = {
+			isa = PBXGroup;
+			children = (
+				C31146CE1626B17E00BF2809 /* HappyTaxi */,
+				C31146C51626B17E00BF2809 /* Frameworks */,
+				C31146C31626B17E00BF2809 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C31146C31626B17E00BF2809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C31146C21626B17E00BF2809 /* HappyTaxi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C31146C51626B17E00BF2809 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C31146C61626B17E00BF2809 /* UIKit.framework */,
+				C31146C81626B17E00BF2809 /* Foundation.framework */,
+				C31146CA1626B17E00BF2809 /* CoreGraphics.framework */,
+				C31146CC1626B17E00BF2809 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C31146CE1626B17E00BF2809 /* HappyTaxi */ = {
+			isa = PBXGroup;
+			children = (
+				C31146D71626B17E00BF2809 /* AppDelegate.h */,
+				C31146D81626B17E00BF2809 /* AppDelegate.m */,
+				C31146E01626B17E00BF2809 /* HappyTaxi.xcdatamodeld */,
+				C31146CF1626B17E00BF2809 /* Supporting Files */,
+			);
+			path = HappyTaxi;
+			sourceTree = "<group>";
+		};
+		C31146CF1626B17E00BF2809 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C31146D01626B17E00BF2809 /* HappyTaxi-Info.plist */,
+				C31146D11626B17E00BF2809 /* InfoPlist.strings */,
+				C31146D41626B17E00BF2809 /* main.m */,
+				C31146D61626B17E00BF2809 /* HappyTaxi-Prefix.pch */,
+				C31146DA1626B17E00BF2809 /* Default.png */,
+				C31146DC1626B17E00BF2809 /* Default@2x.png */,
+				C31146DE1626B17E00BF2809 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C31146C11626B17E00BF2809 /* HappyTaxi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31146E51626B17E00BF2809 /* Build configuration list for PBXNativeTarget "HappyTaxi" */;
+			buildPhases = (
+				C31146BE1626B17E00BF2809 /* Sources */,
+				C31146BF1626B17E00BF2809 /* Frameworks */,
+				C31146C01626B17E00BF2809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyTaxi;
+			productName = HappyTaxi;
+			productReference = C31146C21626B17E00BF2809 /* HappyTaxi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C31146B91626B17E00BF2809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = administrator;
+			};
+			buildConfigurationList = C31146BC1626B17E00BF2809 /* Build configuration list for PBXProject "HappyTaxi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C31146B71626B17E00BF2809;
+			productRefGroup = C31146C31626B17E00BF2809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C31146C11626B17E00BF2809 /* HappyTaxi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C31146C01626B17E00BF2809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31146D31626B17E00BF2809 /* InfoPlist.strings in Resources */,
+				C31146DB1626B17E00BF2809 /* Default.png in Resources */,
+				C31146DD1626B17E00BF2809 /* Default@2x.png in Resources */,
+				C31146DF1626B17E00BF2809 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C31146BE1626B17E00BF2809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31146D51626B17E00BF2809 /* main.m in Sources */,
+				C31146D91626B17E00BF2809 /* AppDelegate.m in Sources */,
+				C31146E21626B17E00BF2809 /* HappyTaxi.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C31146D11626B17E00BF2809 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C31146D21626B17E00BF2809 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C31146E31626B17E00BF2809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C31146E41626B17E00BF2809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C31146E61626B17E00BF2809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HappyTaxi/HappyTaxi-Prefix.pch";
+				INFOPLIST_FILE = "HappyTaxi/HappyTaxi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C31146E71626B17E00BF2809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HappyTaxi/HappyTaxi-Prefix.pch";
+				INFOPLIST_FILE = "HappyTaxi/HappyTaxi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C31146BC1626B17E00BF2809 /* Build configuration list for PBXProject "HappyTaxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31146E31626B17E00BF2809 /* Debug */,
+				C31146E41626B17E00BF2809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31146E51626B17E00BF2809 /* Build configuration list for PBXNativeTarget "HappyTaxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31146E61626B17E00BF2809 /* Debug */,
+				C31146E71626B17E00BF2809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C31146E01626B17E00BF2809 /* HappyTaxi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C31146E11626B17E00BF2809 /* HappyTaxi.xcdatamodel */,
+			);
+			currentVersion = C31146E11626B17E00BF2809 /* HappyTaxi.xcdatamodel */;
+			path = HappyTaxi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C31146B91626B17E00BF2809 /* Project object */;
+}
